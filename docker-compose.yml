@@ -2,7 +2,7 @@ services:
 #Definimos el servicio Web, en este caso Odoo
   odoo_belen:
     #Indicamos que imagen de Docker Hub utilizaremos
-    image: odoo:20
+    image: odoo:19
     container_name: odoo_belen
     #Indicamos que depende de "db", por lo cual debe ser procesada primero "db"
     depends_on:
